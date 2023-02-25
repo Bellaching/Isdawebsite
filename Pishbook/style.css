@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #F0F2F5;
+}
+
+.logo img{
+    width: 250px;
+    height: 85px;
+
+    display: block;
+    margin: 5px auto;
+    position: relative;
+    top: 70px;
+}
+.loginbox {
+    width: 400px;
+    height: 420px;
+    background-color: #FFFFFF;
+    color:#fff;
+    top: 290px;
+    left:50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 70px 30px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #DDDFE2;
+    
+}
+
+input[type=email] {
+    padding: 15px;
+    width: 91%;
+    height: 30px;;
+    margin-bottom: 20px;
+    background-color:#FEFEFE;
+    border:solid #D6D8DB 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none
+}
+
+input[type=email]:focus{
+    
+    border:1px solid #D6D8DB ;
+}
+
+
+ input[type=password] {
+    
+    padding: 15px;
+    width: 91%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color:#FEFEFE;
+    border: 1px solid #D6D8DB ;
+    border-radius: 10px;
+    font-size: 18px;  
+    transition: 0.5s;
+    outline: none;
+}
+
+.loginbox input[type=password]:focus{
+    
+    border:1px solid #D6D8DB ;
+}
+
+
+.loginbox ::placeholder{
+    font-size: 18px;
+    color:#998F97;
+   
+}
+
+.loginbox ::placeholder:focus{
+    font-size: 18px;
+    color:#CDC3C9;
+}
+
+.loginbox button{
+    width: 100%;
+    background-color: #166FE5;
+    color: white;
+    border:#F0F2F5;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.loginbox a{
+    padding: 70px 30px;
+    position: absolute;
+    left:120px;
+    
+    text-decoration: none;
+    font-style: inherit ;
+    color: #1877f2 ;
+    font-size: 14px;
+    font-style: inherit;
+    
+}
+
+
+
+
+
+
+
+
+
